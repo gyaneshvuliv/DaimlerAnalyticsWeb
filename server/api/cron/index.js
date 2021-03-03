@@ -35,10 +35,10 @@ var serverSessionnJob = new cronJob('00 05 06 * * *', function () {
 });
 
 
-gameEmailJob.start()
+//gameEmailJob.start()
 // timeSpentJob.start()
-countByHostJob.start()
+//countByHostJob.start()
 // MTDJob.start()
-serverSessionnJob.start()
+//serverSessionnJob.start()
 
 module.exports = router;
